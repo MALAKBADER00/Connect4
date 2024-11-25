@@ -12,15 +12,35 @@ The MiniMax algorithm is a decision-making process used in game theory and AI. I
 
 ## Demo  
 Below is a snapshot of the game in action:  
-![Connect 4 Demo](pic.jpe)  
-*(Replace the path with your actual image file in the repository)*
-
----
+![Connect 4 Demo](pic.jpg)  
 
 ## How to Set Up and Run the Game
 
 1. **Clone the Repository**  
    Open your terminal and run the following command:  
    ```bash
-   git clone https://github.com/your-username/connect4-minimax.git
-   cd connect4-minimax
+   git clone https://github.com/MALAKBADER00/connect4.git
+   cd connect4
+
+2. **Set Up the Virtual Environment**
+   - for windows
+     ```bash
+     python -m venv venv
+     venv\Scripts\activate
+  - for mac
+    ```bash
+    python -m venv venv
+    source venv/bin/activate
+   
+
+4. **Install Required Packages**
+   ```bash
+   pip install -r requirements.txt
+   
+
+6. **Run the Game**
+   ```bash
+   python human_vs_human.py
+  or 
+  ```bash
+  python human_vs_ai.py

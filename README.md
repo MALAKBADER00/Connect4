@@ -9,11 +9,10 @@ The game uses **Pygame** for visualization and provides an engaging experience w
 ## What is the MiniMax Algorithm?  
 The MiniMax algorithm is a decision-making process used in game theory and AI. It evaluates all possible moves to minimize the maximum potential loss (or maximize the minimum gain). In this game, it allows the AI to anticipate the player's strategy and select the best move to win or block the opponent.
 
----
 
 ## Demo  
 Below is a snapshot of the game in action:  
-![Connect 4 Demo](path/to/your/demo-image.png)  
+![Connect 4 Demo](pic.jpe)  
 *(Replace the path with your actual image file in the repository)*
 
 ---
